@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <title>Portfólio | Weslley Loureiro</title>
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <div class="cabecalho-link">
+                <nav>
+                    <ul>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Projetos</a></li>
+                        <a href="mailto:loureiroweslley@gmail.com" target="_blank">
+                            <button>
+                                Meu contato
+                            </button>
+                        </a>
+                    </ul>
+                </nav>
+
+
+            </div><!--cabecalho-link-->
+        </header>
+
+        <div class="container-text">
+            <div class="text">
+                <h3>Olá, seja bem vindo!</h3>
+                <h1>Eu sou <span>Weslley Loureiro</span></h1>
+                <p>e esse é o meu portfólio, onde irei mostrar todos os meus projetos,<br> como Front-end e Análise de
+                    dados.</p>
+                <div class="redes-sociais">
+                    <a href="https://github.com/weslleyloureiro" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/jovem.wes/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:loureiroweslley@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/weslley-loureiro-938bb8123/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div><!--redes-sociais-->
+
+                <a href="https://www.linkedin.com/in/weslley-loureiro-938bb8123/" target="_blank">
+                    <button class="btn"> Sobre Mim</button>
+                </a>
+            </div>
+        </div>
+    </div><!--background-->
+
+    <main class="selecao-de-projetos">
+        <section class="projetos">
+            <h1 class="titulo"> Projetos</h1>
+            <ul class="lista-de-projetos">
+                <li class="projeto selecionado" id="portfolio" data-name="portfolio" data-description="Um portfólio mostrando os projetos feitos por mim, criado com HTML, CSS e JavaScript. 
+                A flexibilidade dessas tecnologias permite que você atualize e melhore continuamente seu portfólio, mantendo-o relevante e impactante ao longo do tempo.">
+                <a href="//www.google.com" target="_blank"> 
+                    <img
+                      src="portfolio.png"
+                      alt="Projeto Portfólio"
+                    />
+                  </li>
+                </a>
+                  <li class="projeto" id="xmen" data-name="xmen" data-description=" Um projeto relacionado aos X-Men, uma popular franquia de super-heróis da Marvel. 
+                  Ele apresenta uma interface visualmente atraente e responsiva, com informações sobre os personagens, suas histórias e poderes. O site utiliza HTML, CSS e JavaScript para fornecer uma experiência interativa e informativa para os fãs dos X-Men.">
+                <a href="https://weslleyloureiro.github.io/X-men-project/" target="_blank">
+                    <img
+                      src="x-men.png"
+                      alt="Projeto X-men"
+                    />
+                  </li>
+                    </a>
+                  <li class="projeto" id="relogio" data-name="relogio" data-description="Projeto de relógio digital online simples e funcional. Com uma interface minimalista, exibe a hora atual de forma clara e legível. Desenvolvido com HTML, CSS e JavaScript, o site oferece uma maneira prática de verificar o horário de forma rápida e conveniente.">
+                <a href="https://weslleyloureiro.github.io/relogio_digital/" target="_blank">
+                    <img
+                      src="relogio.png"
+                      alt="Projeto Relógio"
+                    />
+                  </li>
+                    </a>
+            </ul>
+        </section>
+        <section class="projeto-selecionado">
+            <div class="informacoes-projeto">
+                <p class="descricao-projeto" id="descricao-projeto"></p>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
